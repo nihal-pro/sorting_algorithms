@@ -29,6 +29,7 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void recursive(int *array, int start, int end, size_t size);
 int calcul_pivot(int *array, int start, int end, size_t size);
+void shell_sort(int *array, size_t size);
 
 
 
