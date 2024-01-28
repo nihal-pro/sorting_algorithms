@@ -7,7 +7,7 @@
  * @start: starting from.
  * @end: end of array.
  * @size: size of an array
- * Return: privet index
+ * Return: pivot index
  */
 int calcul_pivot(int *array, int start, int end, size_t size)
 {
