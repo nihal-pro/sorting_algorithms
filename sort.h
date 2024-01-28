@@ -34,6 +34,8 @@ void swap(listint_t **list, listint_t *_i, listint_t *_j);
 void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
+void heap_sort(int *array, size_t size);
+void Rec_heapfiy(int *ar, size_t hp, size_t i, size_t size);
 
 
 #endif /* SORT_H */
